@@ -76,7 +76,7 @@ class PlanetDetailsAdapter (var context: Context, var planetsList: ArrayList<Pla
                 setSpinnerAdapter(viewHolder.filmsSpinner, listOf("Load the list"))
             else setSpinnerAdapter(viewHolder.filmsSpinner, planet.films)
         }
-        else setSpinnerAdapter(viewHolder.residentsSpinner, listOf("List is empty"))
+        else setSpinnerAdapter(viewHolder.filmsSpinner, listOf("List is empty"))
 
         viewHolder.residentsSpinner.setOnTouchListener(this)
         viewHolder.residentsSpinner.prompt = "List of residents"
