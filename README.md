@@ -27,7 +27,6 @@ The test project was developed in Android Studio using Kotlin. The build is base
 ![](https://github.com/maximpogodin/swapi-android/blob/master/screenshots/step2.png)
 4. Click on Clone button
 5. Open project
-6. Done
 ___
 Since build.gradle already exists, Android Studio will set everything else up automatically.
 ## APK
