@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="5dp"
+    android:elevation="8dp"
+    app:cardUseCompatPadding="true"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?android:attr/selectableItemBackground">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="50dp"
+        android:paddingEnd="10dp"
+        android:paddingStart="10dp"
+        android:id="@+id/item_film_layout">
+
+        <TextView
+            android:id="@+id/title_and_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Episode 1: The Phantom Menace"
+            android:textSize="28sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginStart="16dp"/>
+
+        <TextView
+            android:id="@+id/director"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:paddingTop="25dp"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/title_and_id"
+            android:text="Director: George Lucas"/>
+
+        <TextView
+            android:id="@+id/producer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/director"
+            android:text="Producer: Gary Kurtz, Rick McCallum"/>
+
+        <TextView
+            android:id="@+id/release_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:paddingTop="25dp"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/producer"
+            android:text="Release date: 1977-05-25"/>
+
+        <TextView
+            android:id="@+id/characters_spinner_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/release_date"
+            android:paddingTop="10dp"
+            android:text="Characters of this episode"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/characters_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/characters_spinner_title"
+            android:spinnerMode="dialog"
+            style="@style/Base.Widget.AppCompat.Spinner.Underlined"
+            android:layout_marginStart="16dp"/>
+
+        <TextView
+            android:id="@+id/planets_spinner_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/characters_spinner"
+            android:paddingTop="10dp"
+            android:text="Planets of this episode"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/planets_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/planets_spinner_title"
+            android:spinnerMode="dialog"
+            style="@style/Base.Widget.AppCompat.Spinner.Underlined"
+            android:layout_marginStart="16dp"/>
+
+        <TextView
+            android:id="@+id/starships_spinner_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/planets_spinner"
+            android:paddingTop="10dp"
+            android:text="Starships of this episode"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/starships_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/starships_spinner_title"
+            android:spinnerMode="dialog"
+            style="@style/Base.Widget.AppCompat.Spinner.Underlined"
+            android:layout_marginStart="16dp"/>
+
+        <TextView
+            android:id="@+id/vehicles_spinner_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/starships_spinner"
+            android:paddingTop="10dp"
+            android:text="Vehicles of this episode"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/vehicles_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/vehicles_spinner_title"
+            android:spinnerMode="dialog"
+            style="@style/Base.Widget.AppCompat.Spinner.Underlined"
+            android:layout_marginStart="16dp"/>
+
+        <TextView
+            android:id="@+id/species_spinner_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/vehicles_spinner"
+            android:paddingTop="10dp"
+            android:text="Species of this episode"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/species_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/species_spinner_title"
+            android:spinnerMode="dialog"
+            style="@style/Base.Widget.AppCompat.Spinner.Underlined"
+            android:layout_marginStart="16dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

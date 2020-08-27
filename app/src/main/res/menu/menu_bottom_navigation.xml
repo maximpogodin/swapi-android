@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_planets"
+        android:icon="@drawable/ic_public_black_24dp"
+        android:title="Planets">
+    </item>
+    <item
+        android:id="@+id/action_stats"
+        android:icon="@drawable/ic_equalizer_black_24dp"
+        android:title="Statistics">
+    </item>
+</menu>
