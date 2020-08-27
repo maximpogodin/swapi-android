@@ -1,6 +1,6 @@
 # SWAPI Android Test App
 ## Contents
-1. [Description](https://github.com/maximpogodin/swapi-android/README#Description)
+1. [Description](#description)
 2. 
 3. 
 4. 
