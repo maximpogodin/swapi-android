@@ -1,9 +1,10 @@
 # SWAPI Android Test App
 ## Contents
 1. [Description](#description)
-2. 
-3. 
-4. 
+2. [Plugins, library and stuff](#plugins-library-and-stuff)
+3. [SDK specification](#sdk-specification)
+4. [Setting up the project](#setting-up-the-project)
+5. [APK](#apk)
 ## Description
 The test project was developed in Android Studio using Kotlin. The build is based on the Gradle build system.
 ## Plugins, library and stuff:
@@ -11,7 +12,7 @@ The test project was developed in Android Studio using Kotlin. The build is base
 - [GSON](https://github.com/google/gson) (Google open source library) for serialization-deserialization JSON - ver. 2.8.5
 - [Volley](https://github.com/google/volley) (Google open source HTTP library) - ver. 1.1.1
 - The application was launched on the Pixel XL emulator API 29 (Android 10.0)
-## SDK:
+## SDK specification:
 - Target sdk version 30
 - Min sdk version 21
 - Build tools version 30.0.1
