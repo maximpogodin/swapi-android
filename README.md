@@ -5,6 +5,7 @@
 3. [SDK specification](#sdk-specification)
 4. [Setting up the project](#setting-up-the-project)
 5. [APK](#apk)
+6. [App in action](#app-in-action)
 ## Description
 The test project was developed in Android Studio using Kotlin. The build is based on the Gradle build system.
 ## Plugins, library and stuff:
@@ -31,3 +32,16 @@ ___
 Since build.gradle already exists, Android Studio will set everything else up automatically.
 ## APK
 The build result is [here](https://github.com/maximpogodin/swapi-android/tree/master/apk).
+## App in action
+- Fragment **Planets**</br>
+![](https://github.com/maximpogodin/swapi-android/blob/master/screenshots/fragment-planets.jpg)
+- Fragment **Details** with no loaded spinners</br>
+![](https://github.com/maximpogodin/swapi-android/blob/master/screenshots/fragment-details-not-loaded.jpg)
+- Fragment **Details**. Choose item from spinner</br>
+![](https://github.com/maximpogodin/swapi-android/blob/master/screenshots/fragment-details-choose-item.jpg)
+- Fragment **Details**. With loaded spinners</br>
+![](https://github.com/maximpogodin/swapi-android/blob/master/screenshots/fragment-details-loaded.jpg)
+- Fragment **Statistics**</br>
+![](https://github.com/maximpogodin/swapi-android/blob/master/screenshots/fragment-stats-not-loaded.jpg)
+- Fragment **Statistics**</br>
+![](https://github.com/maximpogodin/swapi-android/blob/master/screenshots/fragment-stats-loaded.jpg)
