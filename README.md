@@ -175,10 +175,10 @@ The build result is [here](https://github.com/maximpogodin/swapi-android/tree/ma
 ![](https://github.com/maximpogodin/swapi-android/blob/master/screenshots/fragment-details-not-loaded.jpg)
 - Fragment **Details**. Choose item from spinner</br>
 ![](https://github.com/maximpogodin/swapi-android/blob/master/screenshots/fragment-details-choose-item.jpg)
-- Fragment **Details** with loaded spinners</br>
+- Fragment **Details**. With loaded spinners</br>
 ![](https://github.com/maximpogodin/swapi-android/blob/master/screenshots/fragment-details-loaded.jpg)
-- Fragment **Statistics** with no loaded spinners</br>
+- Fragment **Statistics**</br>
 ![](https://github.com/maximpogodin/swapi-android/blob/master/screenshots/fragment-stats-not-loaded.jpg)
-- Fragment **Statistics** with loaded spinners</br>
+- Fragment **Statistics**</br>
 ![](https://github.com/maximpogodin/swapi-android/blob/master/screenshots/fragment-stats-loaded.jpg)
 >>>>>>> parent of 4e32232... Update README.md
